@@ -11,28 +11,27 @@ body{
 
     font-family: Poppins, "Arial Black", Gadget, sans-serif;
     letter-spacing: 0.5px;
-    text-shadow: 1px 1px 1px #0000ff;
 }
-    .nav{
-        width: 100vw;
-        height: 13vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        background-color: black;
-        position: fixed;
-    }
-        .nav__links{
+.nav{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+        .nav_links{
             display: flex;
             flex-direction: row;
             justify-content: space-around;
         }
-            .links__link{
+            .links_link{
                 color: white;
                 padding: 15px 40px;
             }
-            .links__link:hover{
+            .links_link:hover{
                 background-color: #0000ff;
             }
     .contacto{
@@ -99,7 +98,7 @@ body{
                     border: none;
                     box-shadow: 2px 3px 2px black;
                     border-radius: 15px;
-                    background-color: #0000ff;
+                    background-color: #10f294;
                     color: white;
                     text-shadow: 0.5px 1px 1px black;
                 }

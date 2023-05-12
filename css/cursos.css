@@ -4,7 +4,6 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
 body{
     display: flex;
     flex-direction: column;
@@ -12,29 +11,29 @@ body{
     font-family: Poppins, "Arial Black", Gadget, sans-serif;
     letter-spacing: 0.5px;
 }
-    .nav{
-        width: 100vw;
-        height: 13vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        background-color: black;
-        position: fixed;
+.nav{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+.nav_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+    .links_link{
+        color: white;
+        padding: 15px 30px;
     }
-        .nav__links{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            text-shadow: 1px 1px 1px black;
-        }
-            .links__link{
-                color: white;
-                padding: 15px 40px;
-            }
-            .links__link:hover{
-                background-color: #0000ff;
-            }
+    .links_link:hover{
+        background-color: #0000ff;
+    }
     .cursos{
         height: 100vh;
         background-image: url(../img/fondo-bootcamps.png);
